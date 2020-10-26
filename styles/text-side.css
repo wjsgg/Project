@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+main a,section a{
+    text-decoration:none;
+    color:black;
+}
+.Logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.navbar{
+    padding: 16px 8px;
+}
+.nav-left{
+    color: rgba(0,0,0,.9);
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-list{
+    padding-left: 4px;
+}
+.search input,.search button{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+.introduction,.Address{
+    color: #6c757d;
+}
+.label-img{
+    margin-right: 4px;
+}
+.label:not(:last-of-type){
+    margin-right: 16px;
+}
+.label{
+    font-size:12.8px;
+}
+.item{
+    height: 240px;
+}
+.item-left{
+    height: 100%;
+}
+.item-left h4{
+    font-weight: 700;
+}
+.mb-32{
+    margin-bottom: 40px;
+}
+.item-list .item-left p{
+    color: #6c757d;
+}
+.item-right{
+    width: 220px ;
+    height: 132px ;
+    align-self: center;
+    background-image: url(../images/timg.jpg);
+    background-size: cover;
+    border-radius: 4.8px;
+}
+.border-bottom{
+    border-bottom:1px solid #dee2e6;
+}
+.border-top{
+    border-top: 1px solid  #dee2e6;
+}
+.pagenav{
+    margin: 48px 0 16px 0;
+}
+.Card{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+}
+.img{
+    width: 104px;
+    height: 104px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.Card-header{
+    background-color: rgba(0,0,0,.03);
+    padding: 12px 20px;
+}
+.Card-padding{
+    padding: 20px;
+}
+.Card-body{
+    margin: 24px 0 32px;
+}
+.user{
+    margin-left: 16px;
+}
+.username{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.Number{
+    padding-top: 24px;
+    border-top: 1px solid  #dee2e6;
+}
+.number{
+    margin: 8px 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+.tag-left{
+    border: 1px solid #d6d6d6;
+    border-radius: 4px 0 0 4px;
+    padding: 4px 8px;
+    background: #f5f5f5;
+    margin: 0;
+    font-size: 13.6px;
+}
+.tag-right{
+    border: 1px solid #d6d6d6;
+    border-left:none;
+    border-radius:0 4px 4px 0;
+    padding: 4px 8px;
+    background: #e7e7e7;
+    font-size: 13.6px;
+}
+.taglist{
+    margin-top: 24px; 
+    position: sticky;
+    top: 32px;
+}
+.taglist-margin{
+    margin: 9.6px 4.8px 9.6px 0;
+}
+footer{
+    margin-top: 16px;
+}
+footer div{
+    padding: 24px 0;
+}
+b{
+    font-weight: bolder;
+    color: #6c757d;
+}
