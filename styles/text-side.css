@@ -32,9 +32,21 @@ main a,section a{
     background-color: #fff;
     border: 1px solid #ced4da;
 }
-.introduction,.Address{
+.introduction-right,.Address{
     color: #6c757d;
 }
+.introductin-left{
+    width: 146px !important;
+    max-width: 146px;
+    height: 88px !important;
+    min-height: 88px;
+    align-self: center;
+    background-image: url(../images/timg.jpg);
+    background-size: cover;
+    border-radius: 4.8px;
+    margin-right: 16px;
+}
+
 .label-img{
     margin-right: 4px;
 }
@@ -46,7 +58,12 @@ main a,section a{
 }
 .item-list{
     padding-left: 0px;
-    padding-right: 48px;
+    padding-right: 0px;
+}
+@media(min-width:1200px){
+    .item-list {
+        padding-right: 48px;
+}
 }
 .item{
     height: 240px;
@@ -62,8 +79,10 @@ main a,section a{
     color: #6c757d;
 }
 .item-right{
-    width: 220px ;
-    height: 132px ;
+    width: 220px !important;
+    max-width: 220px;
+    height: 132px !important;
+    max-height: 132px;
     align-self: center;
     background-image: url(../images/timg.jpg);
     background-size: cover;
